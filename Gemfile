@@ -9,6 +9,7 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'ember-rails'
 gem 'ember-source'
 gem 'mongoid', git: 'https://github.com/mongoid/mongoid.git', ref: 'v4.0.0.beta1'
+gem 'foundation-rails'
 
 gem 'jquery-rails'
 

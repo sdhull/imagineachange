@@ -1,0 +1,12 @@
+Foo
+{{#each category in [{name: "Education"}, {name: "Infrastructure"}, {name: "Defense"}, {name: "Health Care"}, {name: "Social Security"}]}}
+  Bar
+  <div class="row">
+    <div class="columns small-12 large-8">
+      <label class="left inline">{{ name }}
+    </div>
+    <div class="columns small-12 large-8">
+      {{ input type="number" value=name }}
+    </div>
+  </div>
+{{/each}}
